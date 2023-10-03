@@ -9,8 +9,15 @@ import SwiftUI
 
 struct LandingPageView: View {
     var body: some View {
-        Text("Landing Page view")
-            .font(.system(size: 40))
+        NavigationView{
+            VStack(spacing: 30){
+                Spacer()
+                Image("lady in the forest")
+                    .resizable()
+                    .aspectRatio(contentMode: .fill)
+                    .padding()
+            }
+        }
     }
 }
 
