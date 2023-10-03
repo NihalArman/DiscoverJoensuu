@@ -18,6 +18,8 @@ struct LandingPageView: View {
                     .padding()
                 VStack(alignment: .leading, spacing: 10){
                     Text("Welcome to Joensuu")
+                        .fontWeight(.bold)
+                        .font(.system(.largeTitle))
                 }
             }
         }
