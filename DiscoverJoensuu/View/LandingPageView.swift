@@ -16,6 +16,9 @@ struct LandingPageView: View {
                     .resizable()
                     .aspectRatio(contentMode: .fill)
                     .padding()
+                VStack(alignment: .leading, spacing: 10){
+                    Text("Welcome to Joensuu")
+                }
             }
         }
     }
