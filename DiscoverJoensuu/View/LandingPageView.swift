@@ -1,5 +1,5 @@
 //
-//  HomeScreenView.swift
+//  LandingPageView.swift
 //  DiscoverJoensuu
 //
 //  Created by Nihal Arman on 3.10.2023.
@@ -26,7 +26,7 @@ struct LandingPageView: View {
     }
 }
 
-struct HomeScreenView_Previews: PreviewProvider {
+struct LandingPageView_Previews: PreviewProvider {
     static var previews: some View {
         LandingPageView()
     }
